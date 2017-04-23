@@ -1,24 +1,14 @@
-# README
+ Enterprise Wolf
+ ===============
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+ Powerful software
 
-* Ruby version
+ -----------------
 
-* System dependencies
+ ### Welcome to the repository
 
-* Configuration
 
-* Database creation
+ Feel free to access [my portfolio](Xodus899.github.io).
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
