@@ -14,6 +14,8 @@ gem 'pg'
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# twitter bootstrap repsonsive gem
+gem 'bootstrap-sass'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -39,6 +41,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   gem 'sqlite3'
+  gem 'bootstrap-sass'
 end
 
 group :development do
@@ -49,6 +52,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'sqlite3'
+  gem 'bootstrap-sass'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
