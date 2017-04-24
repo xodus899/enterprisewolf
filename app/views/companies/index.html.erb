@@ -1,5 +1,4 @@
 <p id="notice"><%= notice %></p>
-
 <h1>Companies</h1>
 
 
@@ -42,6 +41,9 @@
 <br>
   <%= submit_tag "Upload Companies" %>
 <% end %>
+
+<h3> Download File </h3>
+<%= link_to "Report",companies_path(format: "csv"),class: "btn btn-default" %>
 <br>
-<%= link_to 'New Company', new_company_path, class: "btn btn-primary pull-right" %>
+<%= link_to 'New Company', new_company_path, class: " btn btn-default" %>
 
